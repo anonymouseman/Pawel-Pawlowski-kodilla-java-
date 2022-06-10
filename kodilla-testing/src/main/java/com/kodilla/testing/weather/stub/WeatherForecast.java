@@ -27,7 +27,7 @@ public class WeatherForecast {
         return resultMap;
     }
 
-    public double MeanTemperature() {
+    public double meanTemperature() {
 
 
         double sum = 0;
@@ -45,7 +45,7 @@ public class WeatherForecast {
 
     }
 
-    public double MedianaTemperature() {
+    public double medianaTemperature() {
 
         double mean = 0;
         double mediana = 0;

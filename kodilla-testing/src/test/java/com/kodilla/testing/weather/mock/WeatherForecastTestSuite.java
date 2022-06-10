@@ -54,7 +54,7 @@ class WeatherForecastTestSuite {
 
         //When
 
-        double mean = weatherForecast.MeanTemperature();
+        double mean = weatherForecast.meanTemperature();
 
         //Then
 
@@ -79,7 +79,7 @@ class WeatherForecastTestSuite {
 
         //When
 
-        double mediana = weatherForecast.MedianaTemperature();
+        double mediana = weatherForecast.medianaTemperature();
 
         //Then
 
