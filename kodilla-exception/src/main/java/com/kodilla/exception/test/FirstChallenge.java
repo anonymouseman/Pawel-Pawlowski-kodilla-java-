@@ -17,7 +17,7 @@ public class FirstChallenge {
         try {
             double result = firstChallenge.divide(10, 0);
             System.out.println(result);
-        } catch(ArithmeticException e) {
+        } catch (ArithmeticException e) {
             System.out.println("Error: " + e);
         } finally {
             System.out.println("Thanks!");
